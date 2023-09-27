@@ -16,7 +16,7 @@ FROM openjdk:17-jdk-slim
 
  
 
-COPY --from=Build /target/JBS-0.1-SNAPSHOT.jar app.jar
+COPY --from=Build /target/JBS-0.1.jar app.jar
 
  
 
